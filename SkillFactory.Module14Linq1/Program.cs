@@ -21,6 +21,8 @@ namespace SkillFactory.Module14Linq1
                                  .ToList();
             Console.WriteLine(BookUI.Intstructions);
             int pageToShow = 1;
+
+            // Control for the phonebook UI, when Q is pressed the program will end.
             while (true)
             {
                 pageToShow = Console.ReadKey(true).Key switch
